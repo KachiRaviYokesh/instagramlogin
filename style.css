@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@font-face {
+    font-family: Pacifico-Regular;
+    src: url(Pacifico-Regular.ttf) format('truetype');
+}
+.ft-fmy {
+    font-family: 'Open Sans', sans-serif;
+}
+.ft-sz-11 {
+    font-size: 11px;
+}
+.ft-sz-12 {
+    font-size: 12px;
+}
+.ft-sz-14 {
+    font-size: 14px;
+}
+.ft-sz-17 {
+    font-size: 17px;
+}
+.ft-sz-18 {
+    font-size: 18px;
+}
+.title {
+    font-family: Pacifico-Regular;
+}
+.border-dsn {
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    outline: none;
+    letter-spacing: 0.5px;
+}
+::placeholder {
+    color: white;
+}
+.txt-clr {
+    color: darkslateblue;
+}
+.info_msg {
+    display: none;
+}
+.info_icn:hover .info_msg {
+    display: block;
+}
